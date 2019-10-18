@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assessment 2</title>
+</head>
+<body>
+    
+    <!-- Form related work -->
+
+    <h1>Course Sign up Page</h1>
+    <h3> Please Note: First Name, Last Name, Password, and Email are required</h3>
+    <!-- First work -->
+    <!-- action to thankyou.html by get method -->
+    <form action="thankyou.html" method="get">
+    <!-- Please Note: First Name, Last Name, Password, and Email are required -->
+    <label for= "a">First Name: </label>
+    <input id='a' type="text" name="firstname" placeholder="First Name" required> 
+    
+    <label for = "b">Last Name: </label>
+    <input id ='b' type="text" name="lastname" placeholder="Last Name" required>
+    
+    <label for = "c">Email: </label>
+    <input id = 'c' type="email" name="useremail" placeholder="name@email.com" required>
+    
+    <label for= "d">Password: </label>
+    <input id = 'd' type="password" name="password" placeholder="" required>
+    
+    <!-- Second work : Radio buttons -->
+    <h3> Are you over the age of 18? </h3>
+    
+    <label for="y">Yes:</label>
+    <input id = 'y' type = "radio" name = "check" value="yes">
+    <label for= "n">No:</label>
+    <input id = 'n' type = "radio" name = "check" value = "no">
+    
+    <!-- Third work : Drop down menu -->
+    <h3>Do you have a credit card or paypal?</h3>
+    <select>
+        <option value="cc">Credit card</option>
+        <option value="pp">Paypal</option>
+    </select>
+    <!-- Sign up -->
+    <input type="submit" name = "" value="Sign up">
+    </form>
+</body>
+</html>
